@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Java Script</title>
+</head>
+<body>
+    <script>
+        let nota1, nota2, nota3;
+        nota1 = prompt('Ingrese nota 1:');
+        nota2 = prompt('Ingrese nota 2:');
+        nota3 = prompt('Ingrese nota 3:');
+        nota1 = parseInt(nota1);
+        nota2 = parseInt(nota2);
+        nota3 = parseInt(nota3);
+        let pro;
+        pro = (nota1 + nota2 + nota3) / 3;
+        if (pro >= 7) {
+            document.write('aprobado');
+        } else {
+            if (pro >= 4) {
+                document.write('regular');
+            } else {
+                document.write('desaprobado');
+            }
+        }
+    </script>
+</body>
+</html>
